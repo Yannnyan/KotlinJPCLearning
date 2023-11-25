@@ -1,0 +1,5 @@
+task=$(head --lines 1 $AUTOMATION/androidTasks | awk -F ":::" '{$1=""; print}');
+sensible-browser $task
+
+
+

@@ -1,0 +1,7 @@
+PROJECTS="C:\Users\Yan\AndroidStudioProjects\KotlinJPCLearning"
+AUTOMATION=$PROJECTS/Automation
+BROWSER=wslview
+
+export PROJECTS
+export AUTOMATION
+export BROWSER

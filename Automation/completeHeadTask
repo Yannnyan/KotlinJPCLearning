@@ -1,0 +1,5 @@
+# copy the first line to completed tasks
+head --lines 1 androidTasks >> completedTasks;
+
+# delete the first line
+sed -e "1d"
